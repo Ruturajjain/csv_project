@@ -18,3 +18,7 @@ class Employee(models.Model):
     
     class Meta:
         db_table = "emp"
+        
+        
+class Company(models.Model):
+    name  = models.CharField(max_length=200)
